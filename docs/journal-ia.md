@@ -1,4 +1,3 @@
-cat > docs/journal-ia.md << 'EOF'
 # Journal d'utilisation de l'IA — ArenaPass - Billetterie
 
 Ce journal documente comment Claude a été utilisé pour construire le cahier des charges.
@@ -13,5 +12,3 @@ Ce journal documente comment Claude a été utilisé pour construire le cahier d
 - Claude est utile pour la structure et pour accélérer, mais il faut tout relire.
 - Il a tendance à utiliser un vocabulaire trop professionnel, j'ai dû simplifier.
 - Je n'ai jamais partagé mes clés, mon `.env` ou mon vrai mot de passe Neon avec l'outil.
-
-EOF

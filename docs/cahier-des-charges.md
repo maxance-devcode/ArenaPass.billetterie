@@ -206,7 +206,7 @@ Diagrammes Mermaid complets dans [`docs/classes.md`](./classes.md).
 - **User** : courriel, nom, code de parrainage. Peut avoir plusieurs commandes.
 - **Event** : titre, sport, date, lieu, capacité, prix en cents, statut.
 - **Order** : sous-total, frais, TPS, TVQ, total, statut, identifiant Stripe.
-- **OrderItem** : ligne figée (titre et prix copiés au moment de l'achat).
+- **OrderItem** : ligne figée titre et prix copiés au moment de l'achat.
 - **Ticket** : QR code unique, statut (valide / utilisé / remboursé).
 - **Refund** : montant, identifiant Stripe du remboursement, statut.
 - **WebhookEvent** : id = id Stripe, pour détecter les doublons.
@@ -270,7 +270,7 @@ Schéma complet dans [`prisma/schema.prisma`](../prisma/schema.prisma). Premièr
 
 **Loi 25** :
 - ENF-07 — Collecte minimale : nom, courriel, historique d'achats seulement.
-- ENF-08 — Consentement à l'inscription (cases à cocher).
+- ENF-08 — Consentement à l'inscription .
 - ENF-09 — Données conservées 3 ans après dernière activité, puis supprimées.
 - ENF-10 — Base hébergée chez Neon. Si on utilise la région AWS US East, les données sortent du Québec, ce qui exige une EFVP avant mise en production. On vise une région canadienne.
 
